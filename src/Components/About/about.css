@@ -1,3 +1,37 @@
 .a{
     height: 100vh;
+    display: flex;
+}
+
+/* Design For Left side */
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a-card .bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: #000;
+}
+.a-card{
+    height: 70vh;
+    width: 60%;
+    border-radius: 30px;
+}
+.a-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Design For Right side */
+.a-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -18,9 +18,9 @@ const Intro = () => {
                             <div className="i-item">Content Creator</div>
                         </div>
                     </div>
-                    <div className="i-desc">
+                    <p className="i-desc">
                         I design and develop services for customer of all sizes, spesializing in creating stylish, mordern websites, web services & online store.
-                    </div>
+                    </p>
                 </div>
             </div>
             <div className="i-right">
