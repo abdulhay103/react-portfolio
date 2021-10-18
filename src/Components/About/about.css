@@ -1,26 +1,24 @@
 .a{
     height: 100vh;
     display: flex;
+    align-items: center;
 }
 
 /* Design For Left side */
 .a-left{
     flex: 1;
+    height: 100%;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
 }
-
-.a-card .bg{
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background: #000;
-}
 .a-card{
-    height: 70vh;
     width: 60%;
+    height: 70vh;
+    position: relative;
     border-radius: 30px;
+    overflow: hidden;
 }
 .a-img{
     height: 100%;
@@ -28,10 +26,22 @@
     object-fit: cover;
 }
 
+.a-card.bg{
+    top: 50px;
+    left: 50px;
+    background:#333;
+    position: absolute;
+}
+
 /* Design For Right side */
 .a-right{
     flex: 1;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+}
+.a-award-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
 }
