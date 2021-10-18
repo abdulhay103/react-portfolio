@@ -18,7 +18,12 @@ const About = () => {
                 <p className="a-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, esse soluta? Ad id dolor autem rerum? Ea itaque voluptatem, repellat non voluptates quaerat eaque odio est eum reiciendis asperiores architecto neque deserunt veritatis, sint nemo commodi esse? Nisi quia similique aperiam, repellendus nobis nesciunt maiores asperiores esse molestiae ipsum officia?</p>
                 <div className="a-awards">
                     <img src={Award} alt="Award" className="a-award-img" />
+                    <div className="a-award-texts">
+                        <h4 className="a-award-title">Best UX/UI Designer-2020</h4>
+                        <p className="a-award-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum assumenda aliquid quod fuga eum cum, a laborum cupiditate, tempore pariatur quae vitae consectetur, quia placeat.</p>
+                    </div>
                 </div>
+                
             </div>
         </div>
     )
