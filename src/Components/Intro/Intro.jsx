@@ -8,7 +8,7 @@ const Intro = () => {
             <div className="i-left">
                 <div className="i-left-wraper">
                     <h2 className="i-intro">Hello! My name is </h2>
-                    <h1 className="i-name">Abdul Hay</h1>
+                    <h1 className="i-name">Abdul Hay!</h1>
                     <div className="i-items">
                         <div className="i-items-wraper">
                             <div className="i-item">Web Developer</div>
