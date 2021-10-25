@@ -1,15 +1,14 @@
-import bizcola from "../src/Img/Bizcola.png"
 export const products =[
         {
           "id": 1,
           "title": "accusamus beatae ad facilis cum similique qui sunt",
-          "url": "https://ibb.co/VSFbdKK",
+          "url": "https://via.placeholder.com/600/FF5733",
           "link": "https://github.com/abdulhay103"
         },
         {
           "id": 2,
           "title": "reprehenderit est deserunt velit ipsam",
-          "url": {bizcola},
+          "url": "https://via.placeholder.com/600/C433FF",
           "link": "https://github.com/abdulhay103"
         },
         {
