@@ -11,12 +11,12 @@ export const Contact = () => {
     const handleSubmit = e =>{
         e.preventDefault()
         emailjs.sendForm('service_9wjd1y8', 'template_ipy04n7', formRef.current, 'user_0teeq5Q5BfwaLYy2Mi6Aw')
-      .then((result) => {
-          console.log(result.text);
-          setDone(true)
-      }, (error) => {
-          console.log(error.text);
-      });
+        .then((result) => {
+            console.log(result.text);
+            setDone(true)
+        }, (error) => {
+        console.log(error.text);
+        });
     }
     return (
         <div className="c">
