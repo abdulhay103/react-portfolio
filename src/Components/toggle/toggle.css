@@ -1,4 +1,10 @@
 .t{
     display: flex;
-    color: red;
+    height: 15px;
+    width: 50px;
+}
+
+.t-img{
+height: 100%;
+width: 100%;
 }
