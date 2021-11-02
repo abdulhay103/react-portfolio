@@ -9,5 +9,4 @@ const themeReducer = (state, action) = {
       defalt:
       return state;
   }
-
 }

@@ -68,3 +68,10 @@
     color: #555;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width:480px) {
+    .a{
+        flex-direction: column;
+    }
+    
+}
