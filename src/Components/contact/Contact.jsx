@@ -18,6 +18,7 @@ export const Contact = () => {
         console.log(error.text);
         });
     }
+    
     return (
         <div className="c">
             <div className="c-bg"></div>

@@ -72,6 +72,29 @@
 @media screen and (max-width:480px) {
     .a{
         flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
     }
+    .a-left{
+        width: 100%;
+    }
+    .a-card{
+        height: 30vh;
+    }
+    .a-card.bg, .a-awards{
+        display: none;
+    }
+    .a-title{
+        font-size: 45px;
+    }
+    .a-sub{
+        padding: 0 15px;
+        text-align: justify;
+    }
+    .a-desc{
+        padding: 0 15px;
+        text-align: justify;
+    }
+
     
 }
